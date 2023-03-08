@@ -1,0 +1,104 @@
+#main {
+    /*   width: 100vw; */
+    /*   height: 100vh; */
+      background: url("https://beccatarnas.files.wordpress.com/2016/05/jung-e28093-the-red-book.jpg?w=640");
+       background-size: cover;
+       background-position: center; 
+       font-family: sans-serif;
+       text-align: center;
+       color: white;
+      
+       
+    }
+    
+    header {
+      padding: 40px 0 10px 0;
+      color: #3D3B3B;
+    }
+    
+    #title {
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+      color: white;
+      text-shadow: 1px 1px 1px rgb(0 0 0 / 100%);
+    }
+    
+    #description {
+      margin: 0 5px;
+      font-size: 1.125rem;
+      color: white;
+      text-shadow: 1px 1px 1px rgb(0 0 0 / 100%);
+    }
+    
+    main {
+      max-width: 700px;
+      margin: 10px auto;
+      background-color: rgba(150, 42, 59);
+      border-radius: 5px;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    
+    
+    form {
+      text-align: left;
+      color: white;
+    }
+    
+    input, select, textarea {
+      display: block;
+      margin-bottom: 25px;
+      margin-top: 5px;
+      padding: 10px;
+      border: none;
+      box-sizing: border-box;
+    }
+    
+    fieldset {
+      border: none;
+      padding: 0;
+      margin-bottom: 25px;
+    }
+    
+    fieldset input {
+      display: inline;
+      margin-bottom: 0;
+    }
+    
+    fieldset legend {
+      margin-bottom: 10px;
+    }
+    
+    form, ::placeholder, select {
+      font-size: 1.1rem;
+    }
+    
+    input, select {
+      border-radius: 5px;
+    }
+    
+    textarea {  
+      min-height: 120px;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+    
+    .full-width {
+      width: 100%;
+    }
+     
+    input[type="radio"], input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+    }
+    
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: inherit;
+      background-color: #54B1CE;
+      border: none;
+      color: white;
+      font-weight: 500;
+    }

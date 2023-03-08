@@ -1,0 +1,159 @@
+<div id="main">
+    <header>
+      <h1 id="title"><em> Jung Personality Factors</em> Survey Form</h1>
+      <p id="description"><em>A Simple Survey</em></p>
+    </header>
+    
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input class="full-width" type="text" id="name" placeholder="Enter your name" required>
+        
+        <label for="email" id="email-label">Email</label>
+        <input class="full-width" type="email" id="email" placeholder="Enter your email" required>
+        
+        <label for="number" id="number-label">Age (optional)</label>
+        <input class="full-width" type="number" id="number" placeholder="Age" min=10 max=100>
+        
+        <label for="role">We'd love to know your primary personality "role". What best describes you?</label>
+        <select name="role" id="dropdown" class="full-width"type="radio"
+  class="input-radio">
+          <option>Select current role</option>
+          <option value="innocent">The Innocent</option>
+          <option value="everyman">The Everyman</option>
+          <option value="hero">The Hero</option>
+          <option value="caregiver">The Caregiver</option>
+          <option value="explorer">The Explorer</option>
+          <option value="rebel">The Rebel</option>
+          <option value="lover">The Lover</option>
+          <option value="artist">The Artist</option>
+          <option value="jester">The Jester</option>
+          <option value="sage">The Sage</option>
+          <option value="magician">The Magician</option>
+          <option value="ruler">The Ruler</option>
+        </select>
+        
+        <fieldset>
+          <legend>Which Personality Trait Matters Most to you?</legend>
+          
+          <div>
+            <input type="radio" name="trait" value="open" id="open">
+            <label for="open">Openness</label><br>
+          </div>
+          
+          <div>
+            <input type="radio" name="trait" value="concs" id="concs" name:"concs">
+            <label for="maybe">Conscientiousness</label><br>
+          </div>
+          
+          <div>
+            <input type="radio" name="trait" value="version" id="not-sure">
+          <label for="version">Socialbility</label>
+          <input type="radio" name="trait" value="agree" id="agree" checked>
+            <label for="definitely">Agreeablness</label><br>
+          </div>
+          
+          <div>
+            <input type="radio" name="trait" value="neuro" id="nuero">
+            <label for="neuro">Neuroticism</label><br>
+          </div>
+          
+          <div>
+            <input type="radio" name="trait" value="hh" id="hh">
+          <label for="hh">Honesty/Humility</label><br>
+          </div>
+        </fieldset>
+        
+        <label for="song">What's the best description of your mind's focus</label>
+        <select name="mot" id="trait" class="full-width" type="radio"
+  class="input-radio">>
+          <option>Select an option</option>
+          <option value="power">Power</option>
+          <option value="ind">Independence</option>
+          <option value="cur">Curiosity</option>
+          <option value="accept">Acceptance</option>
+          <option value="order">Order</option>
+          <option value="save">Saving</option>
+          <option value="honor">Honor</option>
+          <option value="ideal">Idealism</option>
+          <option value="social">Social Contact</option>
+          <option value="family">Family</option><option value="status">Status</option>
+          <option value="veng">Vengence</option>
+          <option value="rom">Romance</option>
+          <option value="survival">Survival</option>
+          <option value="excersice">Excersice</option><option value="traq">Tranquility</option>
+        </select>
+        
+        <fieldset>
+          <legend>Whare you <em>Really</em> like? (Check all that apply)</legend>
+          
+          <div>
+            <input type="checkbox" value="sb" id="sb">
+            <label for="sb">Social Butterfly</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" value="percep" id="percep" >
+            <label for="percep">Perceptive</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" value="think" id="think">
+            <label for="think">Thinker</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" value="judge" id="judge">
+            <label for="judge">Critical</label>
+            <input type="checkbox" value="wf" id="wf">
+            <label for="wf">Wall Flower</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" value="int" id="int">
+            <label for="int">Sensitive to Intuition</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" value="feel" id="feel">
+            <label for="feel">Thinker</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" value="open" id="open">
+            <label for="open">Openness</label>
+          </div>
+        </fieldset>
+        
+        <label for="comments">Any comments to help us sort you out??</label>
+        <textarea class="full-width" name="comments" id="comments" placeholder="Enter your comments here..."></textarea>
+        
+        <button id="submit" type="submit" value="submit">Submit</input>
+  
+  
+      </form>
+    </main>
+    
+    <footer>
+      <div class="form-group">
+    <p>Would you recommend this tool to a friend?</p>
+    <label>
+      <input
+        name="user-recommend"
+        value="definitely"
+        type="radio"
+        class="input-radio"
+        checked
+      />Definitely</label
+    >
+    <label>
+      <input
+        name="user-recommend"
+        value="maybe"
+        type="radio"
+        class="input-radio"
+      />Maybe</label
+    >
+  </div>
+    </footer>
+  </div>
