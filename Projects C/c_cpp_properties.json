@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "X:/MinGW/mingw64/include/c++/12.1.0",
+                "X:/MinGW/mingw64/include/c++/12.1.0/x86_64-w64-mingw32"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerPath": "X:\\MinGW\\mingw64\\bin\\c++.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++98",
+            "configurationProvider": "BartmanAbyss.amiga-debug"
+        }
+    ],
+    "version": 4
+}
