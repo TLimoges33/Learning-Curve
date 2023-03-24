@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -10,7 +9,7 @@ int main(int argc, string argv[])
 {
     if (argc != 2)
     {
-        printf("Usage: ./ceasar k");
+        printf("Usage: ./caesar k");
         return 1;
     }
 
@@ -47,7 +46,7 @@ int main(int argc, string argv[])
         // index
         int ci = (pi + key) % 26;
 
-        // printing the new cypher
+        // printing the new cipher
         printf("%c", ci + offset);
     }
 
