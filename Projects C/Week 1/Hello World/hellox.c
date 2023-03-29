@@ -10,5 +10,6 @@ int main(int argc, string argv[])
     {
         printf("hello, world\n");
     }
+    Return 0;
 }  
 //Variables Example + CL Arguments
